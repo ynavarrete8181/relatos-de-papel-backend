@@ -4,14 +4,12 @@ server:
 spring:
   application:
     name: ms-books-catalogue
+  datasource:
+    url: ${SPRING_DATASOURCE_URL}
+    username: ${SPRING_DATASOURCE_USERNAME}
+    password: ${SPRING_DATASOURCE_PASSWORD}
 
 eureka:
   client:
     service-url:
       defaultZone: ${EUREKA_CLIENT_SERVICEURL_DEFAULTZONE}
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: health,info
