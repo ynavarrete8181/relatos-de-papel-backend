@@ -4,10 +4,17 @@ server:
 spring:
   application:
     name: ms-books-catalogue
+
   datasource:
+    driver-class-name: org.postgresql.Driver
     url: ${SPRING_DATASOURCE_URL}
     username: ${SPRING_DATASOURCE_USERNAME}
     password: ${SPRING_DATASOURCE_PASSWORD}
+
+  jpa:
+    properties:
+      hibernate:
+        default_schema: public   # opcional, pero recomendado si tu tabla está en public
 
 eureka:
   client:
