@@ -9,6 +9,10 @@ import java.time.LocalDate;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = {
+        "http://localhost:5173",
+        "https://relatos-de-papel-chi.vercel.app"
+})
 @RequestMapping("/api/books")
 public class BookController {
 
