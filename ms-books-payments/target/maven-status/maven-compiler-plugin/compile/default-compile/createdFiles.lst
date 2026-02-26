@@ -1,0 +1,13 @@
+com/relatosdepapel/bookspayments/MsBooksPaymentsApplication.class
+com/relatosdepapel/bookspayments/payment/PurchaseItem.class
+com/relatosdepapel/bookspayments/payment/PaymentService.class
+com/relatosdepapel/bookspayments/payment/PaymentController.class
+com/relatosdepapel/bookspayments/payment/PaymentStatusRequest.class
+com/relatosdepapel/bookspayments/catalogue/CatalogueClient.class
+com/relatosdepapel/bookspayments/payment/PurchaseRepository.class
+com/relatosdepapel/bookspayments/payment/PaymentRepository.class
+com/relatosdepapel/bookspayments/catalogue/BookDto.class
+com/relatosdepapel/bookspayments/payment/Purchase.class
+com/relatosdepapel/bookspayments/payment/PaymentRequest.class
+com/relatosdepapel/bookspayments/payment/Payment.class
+com/relatosdepapel/bookspayments/catalogue/CatalogueClientConfig.class

@@ -1,0 +1,12 @@
+HTTP/2 400 
+date: Mon, 05 Jan 2026 22:04:08 GMT
+content-type: application/json
+cf-ray: 9b9645041a3a75b9-GYE
+content-disposition: inline;filename=f.txt
+vary: accept-encoding
+strict-transport-security: max-age=15552000; includeSubDomains
+cf-cache-status: MISS
+set-cookie: __cf_bm=BKVxCIJ.a5ybwhArhYfwXSNF7Lr_EJA4zVrCu17vimQ-1767650648-1.0.1.1-9iYt7H31r4WgAWOwIhWcx22bvo4yjwCL9G79DXA28rhu7EZSy_zrei._APDqepYrmXvz1Zx4q30Mho_0BvrrJWfwPJ5dcaoDkj4MqdODWeg; path=/; expires=Mon, 05-Jan-26 22:34:08 GMT; domain=.spring.io; HttpOnly; Secure; SameSite=None
+server: cloudflare
+alt-svc: h3=":443"; ma=86400
+
